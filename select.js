@@ -6,7 +6,7 @@
 
 
 
-
+let selectField = document.querySelector(".selectField");
 let selectText = document.getElementById("selectText");
 
 let options = document.getElementsByClassName("option");
@@ -14,7 +14,7 @@ let options = document.getElementsByClassName("option");
 let list = document.querySelector("#list");
 
 
-selectText.onclick = function(){
+selectField.onclick = function(){
     list.classList.toggle("hide")
 
 }
